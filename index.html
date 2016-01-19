@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Test</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link media="all" rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-form">
+			<form>
+				<input type="search" placeholder="Your City" id="city">
+				<button id="submit">Search your city</button>
+			</form>
+		</div>
+		<ul id="tabs" class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a role="tab" data-toggle="tab" href="#NY">New York, US</a><a  href='#' class="delete"></a></li>
+			<li role="presentation"><a role="tab" data-toggle="tab" href="#Kiev">Kiev, UA</a><a  href='#' class="delete"></a></li>
+		</ul>
+
+
+		<div id="tabs_content" class="tab-content">
+			<div class="tab tab-pane active" id="NY"></div>
+			<div class="tab tab-pane" id="Kiev"></div>
+		</div>
+	</div>
+</body>
+</html>

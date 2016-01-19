@@ -1,0 +1,33 @@
+.wrapper {
+	margin: 10px 0 0 10px;
+}
+.wrapper-form {
+	margin-bottom: 5px;
+}
+#city {
+	padding: 0 5px;
+}
+#tabs li {
+	position: relative;
+}
+.nav.nav-tabs {
+	border-bottom: none;
+}
+a.delete {
+	position: absolute !important;
+	bottom: 20px;
+	right: 0;
+	padding: 0 !important;
+    display: none !important;
+}
+a.delete:before {
+	content: 'x';
+	font-size: 14px;
+    color: #ec152a !important;
+
+}
+#tabs li:hover a.delete {
+	display: inline-block !important;
+	background: transparent;
+	border: none;
+}
